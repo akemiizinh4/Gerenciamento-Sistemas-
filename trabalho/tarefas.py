@@ -111,3 +111,9 @@ def relatorio_arquivados():
     print("\nARQUIVADOS:")
     for t in arquivadas:
         print(f"ID: {t['id']} | Título: {t['titulo']} | Status: {t['status']} | Origem: {t.get('origem')}")
+
+
+
+
+
+
