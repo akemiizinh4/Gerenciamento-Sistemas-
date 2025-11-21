@@ -51,6 +51,7 @@ def menu():
         elif opcao == '4':
             try:
                 id_tarefa = safe_int_input("ID da tarefa: ")
+                
             except ValueError as e:
                 print(e)
                 continue
